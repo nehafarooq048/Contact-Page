@@ -1,6 +1,6 @@
 # Contact Our Company Page  
 
-A clean and structured **Contact Us web page** designed using HTML and CSS.  
+A clean and structured **Contact Us web page** designed using HTML.  
 This project provides users with a simple way to reach out to the company, view office details, and check office hours.  
 
 ---
@@ -16,12 +16,11 @@ The **Contact Our Company Page** allows users to:
 ---
 
 ## ✨ Features  
-- **Navigation Menu**: Quick access to Home, About, Services, and Contact pages.  
-- **Contact Form**: Includes input fields for name, email, phone, subject dropdown, message box, and urgent option.  
-- **Preferred Contact Method**: Radio buttons for selecting Email or Phone.  
-- **Company Location**: Displays address details clearly.  
-- **Office Hours Table**: Shows working hours for weekdays, Saturday, and Sunday.  
-- **Buttons**: Send Message and Clear Form options for better user experience.  
+- Simple **contact form** with input fields and message box.  
+- Option to mark messages as **urgent**.  
+- **Preferred contact method** selection (Email / Phone).  
+- Display of **company address** and **office hours**.  
+- **Clear & Submit** buttons for form handling. 
 
 ---
 
