@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Tech Company</title>
+</head>
+<body>
+    <h1>Contact Our Comapany</h1>
+    <p>We'd love to hear from you!</p>
+    <ul>
+        <li><a href="home.html"> Home</a> </li>
+        <li> <a href="about.html">About</a> </li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <h2>Send us a Message</h2>
+    <form>
+        <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name">Full Name:</label>
+         <input type="text" placeholder="Enter Name"/> <br/><br/>
+        <label for="email">Email Address:</label>
+         <input type="email" placeholder="Enter Email"/> <br/><br/>
+        <label for="phNo">Phone Number:</label>
+         <input type="tel" placeholder="Enter Phone Number"/> <br/><br/>
+        <p>Format:123-456-7890</p>
+       </fieldset>
+
+       <fieldset>
+       <legend>Your Message</legend>
+        <label>Subject:</label>
+        <select>
+            <option>General Inquiry </option>
+            <option>Complaint</option>
+            <option>Placement</option>
+        </select> <br/>
+        <label>Message:</label> <br/>
+        <textarea id="txtArea" rows="10" cols="45"></textarea> <br/> <br/>
+        <input type="checkbox"/> Mark as Urgent 
+        <p>Preferred contact method:</p>
+
+        <input type="radio" name="contact" id="emailContact" >
+        <label for="emailContact">Email</label>
+        <input type="radio" name="contact" id="phContact" >
+        <label for="phoneContact">Phone</label>
+
+        <br/>
+        </fieldset> 
+
+        <button class="sendmsg" style="border-radius: 5px;">Send Message</button>
+          <button class="clearform" style="border-radius: 5px;" > Clear Form</button>
+</form>
+    <h2> Our location</h2>
+    <p style="font-style: italic;">123 Business Road <br/>
+        Buisness City, BC1233 <br/>
+        United States</p>
+        <h3> Office Hours</h3>
+        <table border="2" cellpadding="10">
+           <thead>
+                <tr>
+               <th>Days</th>
+                <th>Hours</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Monday-Friday</td>
+                <td>9:00 AM - 5:00 PM</td>
+            </tr>
+             <tr>
+                <td>Saturday</td>
+                <td>10:00 AM - 2:00 PM</td>
+            </tr>
+             <tr>
+                <td>Sunday</td>
+                <td>Closed</td>
+            </tr>
+        </table>
+
+        <p>
+     © 2023 Our Company. All rights reserved. <br>   
+    <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+  </p>
+</body>
+</html>
